@@ -90,5 +90,5 @@ Now run `sudo nix flake update` in your NixOS configuration directory and rebuil
 
 * [nur-packages-template](https://github.com/nix-community/nur-packages-template) for providing the original template for a Nix Flake
 * [sersorrel](https://github.com/sersorrel) and [witchof0x20](https://github.com/witchof0x20) for maintaining the [XIVLauncher package in Nixpkgs](https://github.com/NixOS/nixpkgs/tree/master/pkgs/by-name/xi/xivlauncher) which this heavily borrows from
-* [niklaskorz](https://github.com/niklaskorz) for showing me how to properly package something with Nix
+* [niklaskorz](https://github.com/niklaskorz) previous credit from forked repo, showed original author how to package for nix
 * [drakon64](https://github.com/drakon64) for creating the original repo for this project
