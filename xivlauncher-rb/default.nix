@@ -88,7 +88,7 @@ buildDotnetModule rec {
       in
       ''
         substituteInPlace $out/bin/XIVLauncher.Core \
-          --replace 'exec' 'exec ${steam-run}/bin/steam-run'
+          --replace-fail 'exec' 'exec ${steam-run}/bin/steam-run'
       ''
     )
     + ''
