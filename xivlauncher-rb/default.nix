@@ -7,6 +7,7 @@
   libsecret,
   glib,
   gnutls,
+  xrandr,
   aria2,
   steam,
   gst_all_1,
@@ -105,6 +106,7 @@ buildDotnetModule rec {
     libsecret
     glib
     gnutls
+    xrandr
   ];
 
   desktopItems = [
